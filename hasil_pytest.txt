@@ -1,0 +1,31 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /tmp/outputs/unit-test-tugas
+plugins: anyio-4.15.1
+collecting ... collected 22 items
+
+test_kalkulator_nilai.py::TestHitungRataRata::test_tc01_rata_rata_normal PASSED [  4%]
+test_kalkulator_nilai.py::TestHitungRataRata::test_tc02_satu_nilai PASSED [  9%]
+test_kalkulator_nilai.py::TestHitungRataRata::test_tc03_list_kosong_error PASSED [ 13%]
+test_kalkulator_nilai.py::TestHitungRataRata::test_tc04_nilai_di_luar_rentang_error PASSED [ 18%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[90-A] PASSED [ 22%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[85-A] PASSED [ 27%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[84-B] PASSED [ 31%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[70-B] PASSED [ 36%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[55-C] PASSED [ 40%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[40-D] PASSED [ 45%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[39-E] PASSED [ 50%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_konversi_valid[0-E] PASSED [ 54%]
+test_kalkulator_nilai.py::TestKonversiHuruf::test_tc13_nilai_negatif_error PASSED [ 59%]
+test_kalkulator_nilai.py::TestCekKelulusan::test_tc14_lulus PASSED       [ 63%]
+test_kalkulator_nilai.py::TestCekKelulusan::test_tc15_tepat_batas_lulus PASSED [ 68%]
+test_kalkulator_nilai.py::TestCekKelulusan::test_tc16_tidak_lulus PASSED [ 72%]
+test_kalkulator_nilai.py::TestCekKelulusan::test_tc17_batas_lulus_custom PASSED [ 77%]
+test_kalkulator_nilai.py::TestCekKelulusan::test_tc18_nilai_tidak_valid_error PASSED [ 81%]
+test_kalkulator_nilai.py::TestHitungNilaiAkhir::test_tc19_nilai_akhir_normal PASSED [ 86%]
+test_kalkulator_nilai.py::TestHitungNilaiAkhir::test_tc20_semua_nol PASSED [ 90%]
+test_kalkulator_nilai.py::TestHitungNilaiAkhir::test_tc21_semua_seratus PASSED [ 95%]
+test_kalkulator_nilai.py::TestHitungNilaiAkhir::test_tc22_nilai_negatif_error PASSED [100%]
+
+============================== 22 passed in 0.04s ==============================
